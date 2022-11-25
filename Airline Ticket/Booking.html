@@ -1,0 +1,177 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>BOOK</title>
+
+<link rel="stylesheet" href="Booking.css">
+<script src="js/Booking.js"></script>
+
+</head>
+
+<body bgcolor="#000000">
+<form action="" method="post" enctype="multipart/form-data" name="form1" id="form1">
+  <table width="100%" border="0">
+    <tr>
+      <td width="1000" height="150"><p align="left"><<<img src="FLIGHT LOGO2.png" width="254" height="144" alt="logo" /></p></td>
+      <td width="217"><label for="txtEmail"></label>
+
+     <center> <input class="txtfeild" type="text3" placeholder="Email"
+     name="txtEmail" id="txtEmail"  /></center></td>
+      <td width="217"><label for="txtPassword"></label>
+      <center><input type="text3" placeholder="Password"
+      name="txtPassword" id="txtPassword" /></center></td>
+      <td width="173"><a href="login.html"><input type="submit" name="btLogin" id="btLogin" value="Login" class="button button1"/></a></td>
+    </tr>
+    <br />
+  </table> 
+</form>
+<div class="navbar">
+  <a href="#"><b>Home</b></a>
+  
+  <div class="dropdown">
+    <button class="dropbtn"><b>Booking</b>
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+   	  <a href="Booking.html">Reservation </a>
+      <a href="Payment.html">Payment </a>
+      <a href="#">Boarding Pass</a>
+    </div>
+   </div>
+  
+   <a href="#"><b>Flight</b></a>
+     <a href="gallery.html"><b>Gallery</b></a> 
+       <a href="About us.html"><b>About Us</b></a>
+         <a href="Inqueries.html"><b>Inqueries</b></a>  
+         
+          <!-- Admin -->
+  
+        <a href="login_admin.html"><img src="imgs\admin.png" width="32" height="33" /><b></b></a>     
+</div>
+
+
+<span class="inner"><img src="imgs/AirLine_Ticket2.gif" width="720" height="620" /></span>
+<div class="container">
+ <div class="inner">
+   <p> <b>~ RESERVE YOUR TICKET HERE! ~</b></p>
+   <p>&nbsp;</p>
+
+</div>
+
+<!--<form  method="post"  border="1" class="forform" action="Booking.php" >
+
+<h2 class="h1">FLIGHT NO:  &nbsp;&nbsp;<input type="text" id="flightNO" name="flightNO" required><br></h2>
+  
+  <h2 class="h1">FLIGHT NAME:  <input type="text" id="FlightName" name="FlightName" required><br></h2>
+
+<p>&nbsp;</p>
+<h2 class="h2">AIRPORT NAME: </h2>
+<input type="text2" id="airportname" name="Airportname" required><br>
+
+<h2 class="h2">FROM-CITY: </h2>
+<input type="text2" id="fromcity" name="fromcity" required><br>
+
+<h2 class="h2">TO-CITY: </h2>
+<input type="text2" id="airportname" name="Airportname" required><br>
+
+<!-- 
+<p>&nbsp;</p>
+<h2 class="h2">CABIN CLASS: 
+<select name="cabinclass" class="Dropdownlist" id="Drop_cabinclass" required>
+<option value="Fort-Galle"> Select a Option....</option>
+<option value="Fort-Galle"> First Class</option>
+<option value="Fort-Mathra">Economy Class</option>
+<option value="Fort-Mathra">Business Class</option>
+</select></h2>
+<p>&nbsp;</p>
+
+
+<h2 class="h2">TICKET TYPE : </h2>
+	<h2 class="h2"><input type="radio" class="big" id="radio_roundtrip" name="RadioButton" > Round Trip </h2>
+  	<h2 class="h2"><input type="radio" class="big" id="radio_oneway" name="RadioButton"> One-way </h2>
+
+
+<h2 class="h1"> DATE: &nbsp; <input type="date" id="date" value="YYYY-MM-DD" required></h2>
+
+
+<h2 class="h1"> TIME: &nbsp; <input type="time" id="time" name="txt_time" required></h2>
+
+
+
+<p>&nbsp;</p>
+<h2 class="h1"> ADULTS: &nbsp;&nbsp;<input type="number" id="Adults" name="Adults" min="10" max="10"></h2><br/>
+
+
+<h2 class="h1"> CHILDREN: <input type="number" id="children" name="children" min="10" max="10"></h2><br/>
+
+<input style="margin-left:158px" name="btBook" type="button" class="button button1"  value="Book" ></input>
+
+</form>-->
+
+<form class="forform" method="POST" action="Booking.php"><ul><ul><ul><ul><ul><ul><ul><ul><ul><ul><ul><ul><ul><ul>
+
+	<h2 class="h1">FLIGHT NO: </h2>
+	<input type="text" name="flightNO" class="f1 f11 f12" placeholder="FLIGHT NO HERE" />
+	
+	<h2 class="h1">FLIGHT NAME: </h2>
+	<input type="text" name="FlightName" class="f1 f11 f12" placeholder="FLIGHT NAME HERE" />
+
+	<h2 class="h1">AIRPORT NAME: </h2>
+	<input type="text" name="Airportname" class="f1 f11 f12" placeholder="AIRPORT NAME HERE" />
+
+	<h2 class="h1">FROM - CITY: </h2>
+	<input type="text" name="fromcity" class="f1 f11 f12" placeholder="DESTINATION-CITY" />
+	<h2 class="h1">TO-CITY: </h2>
+	<input type="text" name="ToCity" class="f1 f11 f12" placeholder="ARRIVAL-CITY" />
+
+	<h2 class="h1">ADULTS: </h2>
+	<input type="text" name="Adults" class="f1 f11 f12" placeholder="ADULTS" />
+	<h2 class="h1">CHILDREN: </h2>
+	<input type="text" name="children" class="f1 f11 f12" placeholder="CHILDREN" />
+
+<p>&nbsp;</p>
+<input type="submit" name="insert" value="Book" class="button button1" style="margin-left:200px"/>
+
+
+</form>
+</ul></ul></ul></ul></ul></ul></ul></ul></ul></ul></ul></ul></ul></ul>
+
+
+<div class="footer-main-div" >
+<div class="footer-social-icons">
+    	<ul>
+        	<li><a href="icon/facebook-f-30.png" target="_blank"><i class="fa fa-facebook"></i></a><img src="icon/facebook-f-30.png" width="42" height="48" alt="iconFB" /></li>
+            <li><a href="icon/twitter-26.png" target="_blank"><i class="fa fa-twitter"><img src="icon/twitter-26.png" alt="icontwitter" width="37" height="48" usemap="#Map" border="0" />
+                  <map name="Map" id="Map">
+                    <area shape="circle" coords="37,45,4" href="#" />
+                  </map>
+          </i></a></li>
+            <li><a href="icon/google-plus-32.png" target="_blank"><i class="fa fa-googleplus"></i></a><img src="icon/google-plus-32.png" width="40" height="49" alt="icongoogleplus" /></li>
+            <li><a href="icon/youtube-26.png" target="_blank"><i class="fa fa-youtube"></i></a><img src="icon/youtube-26.png" width="36" height="46" alt="iconYouTube" /></li>
+
+  </ul>
+</div>
+   
+   <div class="footer-menu-one">
+   	<ul >
+        	<li></li>
+        	<li><a href="#"> T&C   </a> </li>
+            <li><a href="#"> Privacy Policy  </a>  </li>
+            <li><a href="#"> Carries  </a> </li>
+            <li><a href="#"> Contact  </a> </li>
+            <li></li>
+     </ul>
+     
+     <div class="copyright">
+                    	<p class="white">
+                        	<br />
+                        	<center> &copy; Copyright &copy; 2019-Transport Service Lanka(Pvt)Ltd.All Right Reserved. </center>
+                        </p>
+                    <div class="bordernow"></div>
+     </div>
+</div>
+
+
+</body>
+</html>

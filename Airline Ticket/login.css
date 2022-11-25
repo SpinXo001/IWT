@@ -1,0 +1,443 @@
+.main-icon span.fa{
+    font-size: 50px;
+    color: #fff;
+    margin-bottom: 1em;
+}
+
+body  {
+  background-image: url("imgs/background.jpeg");
+  height:inherit;
+  width:inherit;
+}
+
+h1 {
+	
+	color: #FFF;
+	font-size: 55px;
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	text-align: center;
+	padding: 1em 0 0.4em 0;
+	text-shadow: 3px 3px 6px #5F71DE;
+	
+}
+
+.header-main {
+	/*max-width: 310px;
+	margin: 0 auto;
+	position: relative;
+	z-index: 999;
+	padding: 3em 2em;
+	background: rgba(255, 255, 255, 0.04);
+	-webkit-box-shadow: -1px 4px 28px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: -1px 4px 28px 0px rgba(0,0,0,0.75);
+	box-shadow: -1px 4px 28px 0px rgba(0,0,0,0.75);*/
+	
+	color: #666;
+	width:540px;
+	height:500px;
+	color: aliceblue;
+	background-color: aliceblue;
+	opacity: 0.8;
+	/*background-color: rgba(0,0,0,0,5);*/
+	margin: 0 auto;
+	margin-top:40px;
+	padding-top:10px;
+	padding-left:20px;
+	border-radius:15px;
+	box-shadow: -1px 4px 28px 0px rgba(0,0,0,0.85);
+	
+
+}
+
+.main-icon {
+    text-align: center;
+}
+
+body
+{
+	margin:0;
+	padding: 0;
+	background-size: cover;
+	background-position: center;
+	font-family: sans-serif;
+}
+
+.button{
+	background-color: #5F71DE; /* yellow */
+	border: none;
+	color: #000;
+	padding: 5px 35px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 18px;
+	font-family: "Comic Sans MS", cursive;
+	margin: 4px 2px;
+	cursor: pointer;
+	font-weight: bold;
+	border-radius: 12px;
+}
+
+.button1:hover {
+  background-color: #E95B0F;
+  color: white;
+}
+
+/* text field */
+input[type=text]
+{
+	width:100%;
+	border: 2px solid #666;
+	border-radius: 4px;
+	margin: 8px 0;
+	outline: none;
+	padding: 8px;
+	box-sizing:border-box;
+}
+
+input[type=text]:focus
+{
+	border-color: #5F71DE;
+	box-shadow:0 0 15px 0 #5F71DE;
+}
+
+.password
+{
+	width:100%;
+	border: 2px solid #666;
+	border-radius: 4px;
+	margin: 8px 0;
+	outline: none;
+	padding: 8px;
+	box-sizing:border-box;
+}
+
+.password:focus
+{
+	border-color: #5F71DE;
+	box-shadow:0 0 15px 0 #5F71DE;
+}
+
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: #241E1E; /* nav bar color */
+  font-family: "Comic Sans MS", cursive;
+}
+
+/* Links inside the navbar = section inside the bar */
+.navbar a {
+  float: left;
+  font-size: 18px;
+  color: #FEFEFE;  /* Font color white*/
+  text-align: center;
+  padding: 15px 30px;
+  text-decoration: none;
+}
+
+/* The dropdown container = include in the booking icon */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button = booking */
+.dropbtn {
+  font-size: 18px;
+  border: none;
+  outline: none;
+  color: white; /* nav bar color = white */
+  padding: 14px 30px;
+  background-color: inherit;
+  font-family: "Comic Sans MS", cursive; /* Important for vertical align                                             on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/*  yellow background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+	background-color: #241E1E; /*Grey*/
+	color: #000;
+	font-weight: bold;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #241E1E; /*Grey*/
+  font-family:"Comic Sans MS", cursive;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: FEFEFE;
+  padding: 14px 30px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* White background color to dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #241E1E;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+} 
+
+
+/* transportation bus you need box included box */
+.container
+{
+	width:1518px;
+	height:100px;
+}
+
+/* the transparent box */
+.container .inner
+{
+	position: absolute;
+	width: 1170px;
+	background-color: #0009;
+	transform: translate(-80%,-80%);
+	top: 363px;
+	left: 1093px;
+}
+
+/* transportation bus you need text modification */
+.container .inner p
+{
+	color:#FFF;
+	font-size:36px;
+	font-family:"Comic Sans MS", cursive;
+	text-align:center;
+}
+
+.container .inner2
+{
+	position: absolute;
+	width: 1518px;
+	height: 693px;
+	background-color: #999999;
+	transform: translate(-40%,-40%);
+	top: 1222px;
+	left: 608px;
+}
+
+/* get to know us text modification  */
+.container .inner2 p
+{
+	color:#FF0;
+	font-size:36px;
+	font-family:"Comic Sans MS", cursive;
+	text-align:center;
+}
+
+.container .inner3
+{
+	position: absolute;
+	width: 1157px;
+	height: 251px;
+	background-color: #999999;
+	transform: translate(-40%,-40%);
+	top: 1315px;
+	left: 638px;
+}
+
+/* learn more body content modification*/
+.container .inner3 p
+{
+	color:#FFF;
+	font-family:"Comic Sans MS", cursive;
+	font-size:24px;
+	text-align:center;
+}
+
+.topic{
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+}
+
+/* footer modification */
+
+.footer-main-div
+{
+	background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)  ), url(Airline_Runway3.jpg);
+	background-size:cover;
+	background-position: center;
+	background-attachment: fixed;
+	padding-top: 90px;
+	padding-bottom: 90px;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+
+}
+
+.footer-social-icons
+{
+	width: 100%;
+	height:auto;
+	margin:auto;
+}
+
+.footer-social-icons ul
+{
+	margin: 0px;
+	padding: 0px;
+	text-align:center;
+}
+
+.footer-social-icons ul li
+{
+	display:inline-block;
+	width: 50px;
+	height: 50px;
+	margin: 0px 10px;
+	border-radius: 100%;
+	background:#FF0;
+}
+
+.footer-social-icons ul li a
+{
+	color: #FF0;
+	font-size: 14px;
+}
+
+.footer-social-icons ul li a i
+{
+	line-height: 30px;
+}
+
+.footer-menu-one
+{
+	width:100%;
+	height:auto;
+	margin:auto;
+	word-spacing: 8px;
+}
+
+.footer-menu-one ul
+{
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+.footer-menu-one ul li
+{
+	display:inline-block;
+	margin: opx 15px;
+}
+
+.footer-menu-one ul li a
+{
+	font-family:"Comic Sans MS", cursive;
+	font-size:14px;
+	font-weight:600;
+	color:#FFF;
+	text-transform: uppercase;
+}
+.password{
+	
+		width:100%;
+	border: 2px solid #666;
+	border-radius: 4px;
+	margin: 8px 0;
+	outline: none;
+	padding: 8px;
+	box-sizing:border-box;
+}
+
+	.copyright
+{
+	color:#999;
+	font-size:12px;
+}
+
+.white
+{
+	color: #FFF;
+}
+
+.clear{clear:both;}/* clear float */
+
+-----------------------------------------------------------------------
+/* CheckBox Modofication */
+
+.login-check {
+    position: relative;
+}
+
+.login-check i {
+	
+	font-size: 14px;
+	color: #000;
+	font-weight: 300;
+	text-transform: lowercase;
+	letter-spacing: 4px;
+	text-align: center;
+	padding: 1em 0 0 0;
+}
+
+/*.checkbox i {
+	position: absolute;
+	top: 2px;
+	left: 65px;
+	text-align: center;
+	display: block;
+	width: 196px;
+	height: 18px;
+	outline: none;
+	background: #FFF ;
+	border-radius: 0px;
+	-webkit-border-radius: 0px;
+	-moz-border-radius: 0px;
+	-o-border-radius: 0px;
+	cursor: pointer;
+}
+.checkbox input:checked + i:after {
+    opacity: 1;
+}
+.checkbox input + i:after {
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.1s;
+    -o-transition: opacity 0.1s;
+    -ms-transition: opacity 0.1s;
+    -moz-transition: opacity 0.1s;
+    -webkit-transition: opacity 0.1s;
+}
+.checkbox input + i:after {
+    content: url(../images/tick.png);
+    top: -1px;
+    left: 2px;
+    width: 15px;
+    height: 15px;
+}
+.checkbox {
+    position: relative;
+    display: block;
+    padding-left: 30px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-size: 14px;
+    color: #F00;
+}
+input[type="checkbox" i] {
+    display: none;
+}
+
+*/
+
+-------------------------------------------------------------------
+//logo designing
+/*td { padding-left: 30px; }*/
